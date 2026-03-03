@@ -45,11 +45,11 @@ PINECONE_EMBED_MODEL="llama-text-embed-v2"
 
 ## ⚠️ IMPORTANT NOTE ON EXECUTION TIME
 
-The LLM doing the heavy lifting here is NVIDIA's **GLM-5**, which is a *reasoning* model. It literally "thinks" internally before returning a response to ensure high quality and accurate persona alignment. 
+The LLM doing the heavy lifting here is NVIDIA's **GLM-5**. To ensure high quality and accurate persona alignment, it processes multiple steps for each request (KB retrieval, response generation, and a separate LLM call for the Quality Gate referee). 
 
-Because of this deep thinking and the multi-node graph structure (which includes KB retrieval, response generation, and a separate LLM call for the Quality Gate referee), **the final test cell (Cell #11) takes around 6 minutes and 48.6 seconds to process completely.** 
+Because of this multi-node graph structure, **the final test cell (Cell #11) takes around 1 minute and 30 seconds (at max 2 minutes) to process completely.** 
 
-Grab a coffee ☕ while it runs the 5 test scenarios—it's worth the wait!
+Grab a quick coffee ☕ while it runs the 5 test scenarios—it's worth the wait!
 
 ---
 
