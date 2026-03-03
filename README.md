@@ -34,6 +34,8 @@ PINECONE_INDEX="adsparkx-assignment"
 PINECONE_HOST="your-pinecone-host-url"
 PINECONE_EMBED_MODEL="llama-text-embed-v2"
 ```
+However as of now I have given up my own secrets so that you can run the code and verify it
+
 
 ### Setup Steps
 1. Clone the repo
