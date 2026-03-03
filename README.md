@@ -1,4 +1,4 @@
-# 🏟️ AdSparkX Assignment: Persona-Adaptive Customer Support Agent (PACSA)
+# AdSparkX Assignment: Persona-Adaptive Customer Support Agent (PACSA)
 
 ## What is this?
 Hey there! 👋 This is my submission for the AdSparkX assignment. I built a **Persona-Adaptive Customer Support Agent (PACSA)** using LangGraph, LangChain, NVIDIA NIM (GLM-5), and Pinecone.
